@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 60px 0;
+        }
+
+        .firstSection div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+
+            font-size: 2rem;
+            margin: 70px 0;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(63, 63, 100);
+            font-size: 1.04rem;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .leftSection a {
+            font-size: small;
+        }
+
+        .secondSection ol {
+            text-decoration: none;
+        }
+        footer{
+            background-color:#0e0e1a;
+            height: 200px;
+           
+        }
+        .footer{
+            display: flex;
+            margin: 100px ;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer>div{
+            width: 223px;
+        }
+        footer.footer-rights{
+            text-align: center;
+
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .leftSection.buttons{
+            padding:50px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shubh's portfolio</div>
+            <right>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a target="_blank"
+                            href="http://127.0.0.1:3000/about.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a target="_blank"
+                            href="https://3b513196-768c-4675-a3f7-30e7cf38d498-00-12sislxpdrasi.sisko.replit.dev/">Project</a>
+                    </li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </right>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi my name is <span class="purple">Shubh</span>
+                <div>I am a web developer</div>
+                <span id="element"></span>
+                
+                <a target="_blank" href="https://github.com/Shubh0071"> <button class="btn">Visit Github</button></a>
+                <button class="btn">Download resume</button>
+                
+                <h6>Social media handels</h6>
+                <p><a href="https://www.linkedin.com/in/shubh-srivastava-588065293/"><img
+                            src="icons8-linkedin-50.png"></a>
+                    <a href="https://www.instagram.com/_shubh_sri__/"><img src="icons8-instagram-50.png"></a>
+                </p>
+            </div>
+            <div class="rightSection">
+                <img src="My image-photoaidcom-cropped (1).jpeg">
+            </div>
+
+
+        </section>
+        <section class="secondSection">
+            <h1>Past Experience</h1>
+            <div>
+                CodeSoft Web developer internship
+            </div>
+            <img src="Internship letter.jpeg" height="300px">
+            <h1>Certifications</h1>
+            <div>
+
+                <img src="certificate2.png" height="150">
+                <img src="certificate3.png" height="150">
+                <img src="certificate4.png" height="150">
+                <img src="certificate5.png" height="150">
+                <img src="certificate6.png" height="160">
+                <img src="certificate7.png" height="150">
+                <h3>Certification links</h3>
+                <ol>
+                    <li> <a target="_blank"
+                            href="https://www.cloudskillsboost.google/public_profiles/dacf5b15-fa27-44c0-93e7-761f6aa382b3/badges/8341195">Introduction
+                            to generative AI</a></li>
+                    <li> <a target="_blank"
+                            href="https://www.cloudskillsboost.google/public_profiles/dacf5b15-fa27-44c0-93e7-761f6aa382b3/badges/8345557">Introduction
+                            to Large Language Models</a></li>
+                    <li> <a target="_blank"
+                            href="https://www.cloudskillsboost.google/public_profiles/dacf5b15-fa27-44c0-93e7-761f6aa382b3/badges/8345835">Scaling
+                            with Google Cloud Operations</a></li>
+                    <li> <a target="_blank"
+                            href="https://www.cloudskillsboost.google/public_profiles/dacf5b15-fa27-44c0-93e7-761f6aa382b3/badges/8346368">Modernize
+                            Infrastructure and Applications with Google Cloud</a></li>
+                    <li> <a target="_blank"
+                            href="https://www.cloudskillsboost.google/public_profiles/dacf5b15-fa27-44c0-93e7-761f6aa382b3/badges/8350321">Introduction
+                            to Responsible AI</a></li>
+                    <li> <a target="_blank"
+                            href="https://www.cloudskillsboost.google/public_profiles/dacf5b15-fa27-44c0-93e7-761f6aa382b3/badges/8351038">Digital
+                            Transformation with Google Cloud</a></li>
+                </ol>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Shubh's portfolio</h3>
+            </div>
+            <div class="second">
+
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/shubh-srivastava-588065293/"></a><img src="icons8-linkedin-50.png" height="20px"></li>
+                    <li><a href="/"></a>About</li>
+                    <li><a href="/"></a>Contact</li>
+                    <li><a href="/"></a>Services</li>
+                    <li><a href="/"></a>Project</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li><a href="https://www.instagram.com/_shubh_sri__/"></a><img src="icons8-instagram-50.png"height="20px"></li>
+                    <li><a href="/"></a>About</li>
+                    <li><a href="/"></a>Contact</li>
+                    <li><a href="/"></a>Services</li>
+                    <li><a href="/"></a>Project</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li><a href="https://github.com/Shubh0071"></a><img src="icons8-github-48.png"height="20px"></li>
+                    <li><a href="/"></a>About</li>
+                    <li><a href="/"></a>Contact</li>
+                    <li><a href="/"></a>Services</li>
+                    <li><a href="/"></a>Project</li>
+                </ul>
+                
+            
+            </div>
+        </div>
+        <div class="footer-rights"
+        wwww.shubh's portfolio.com|All rights reserved
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer', 'Coder', 'Marketing expert'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
